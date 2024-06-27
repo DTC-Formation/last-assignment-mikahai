@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/css/glide.core.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.4.1/dist/glide.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet"href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="header-logo">
+        <a href="">Mon Journal</a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a href="#actualités">ACTUALITES</a></li>
+          <li class="nav-item"><a href="#sociales">SOCIALES</a></li>
+          <li class="nav-item"><a href="#politiques">POLITIQUES</a></li>
+          <li class="nav-item"><a href="#higth-tech">HIGH-TECH</a></li>
+          <li class="nav-item"><a href="#sports">SPORTS</a></li>
+        </ul>
+        
+      </nav>
+      <section class="slider-container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <img
+                  src="https://midi-madagasikara.mg/wp-content/uploads/2024/05/WES.jpg.webp"
+                  alt="slide1"
+                />
+                <h4>Jirama : Le nouveau DG, Ron Weiss, mise sur les énergies renouvelables</h4>
+              </li>
+              <li class="glide__slide">
+                <img
+                  src="https://www.madagascar-tribune.com/IMG/arton28972.jpg?1718253338"
+                  alt="slide1"
+                />
+                <h4>Andry Rajoelina prône « l’équilibre économique » pour Madagascar</h4>
+              </li>
+              <li class="glide__slide">
+                <img
+                  src="https://midi-madagasikara.mg/wp-content/uploads/2024/06/AVENUE-1024x683.jpg.webp"
+                  alt="slide1"
+                />
+                <h4>Avenue de l’Indépendance : Ambiance de fête </h4>
+              </li>
+              <li class="glide__slide">
+                <img
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAvH4aezGD8Rh7f92wfGjegRsUVWvnFhLPPyJPHZPdX070MeCXsLNETW8dc9YzPyvY9gtaq8_wD0cuqlbD4MLWhoGStPjLxm9nwKTIaGjTaeuXWv8j4GwblVZpeN1DzB2xuzbX0yVB4IpB86XZAeIQ24pnWCyRLdJRG8Vs4qPP2tBkO7xVCuOuO6BuPE67/s1200/Foot%20Barea.jpg"
+                  alt="slide1"
+                />
+                <h4>CAN 2025 - Les Barea grimpent dans le chapeau 2</h4>
+              </li>
+              <li class="glide__slide">
+                <img
+                  src="https://www.kibo.mg/28493-large_default/motorola-g13-128-go-noir.jpg"
+                  alt="slide1"
+                />
+                <h4>MOTOROLA G13 - 128 Go - Noir </h4>
+              </li>
+
+              <li class="glide__slide">
+                <img
+                src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo1lU2v6LpYONP_a7XaJQzS1ziaSkZf87cfUCpB3wCJtO8qcJgn327SH-fzla8Dd5FgBWwS4Y7tYPsj0ATHhDZ1pIXYyQ1jJkd9v_oMrMGVk18TmKswjyfsFY59ym0vomOyOojXPZ88bmKdDMlW2agV02lwDrmui0y5D81D71SD_HJqh46FtRAKbqCgeTA/s920/Salon_ITM_2023-15062023-24.jpeg'
+                alt="slide1"
+                />
+                <h4>SALON ITM - La Foire du tourisme et de l’artisanat démarre</h4>
+               </ul>
+          </div>
+
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <i class="las la-arrow-left"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <i class="las la-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </header>
+     
+ <section class="contact-section">
+    <form>
+      <h1>Contactez-nous</h1>
+      <div class="separation"></div>
+      <div class="corps-formulaire">
+        <div class="gauche">
+          <div class="groupe">
+            <label>Votre Prénom</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre adresse e-mail</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre téléphone</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-mobile"></i>
+          </div>
+        </div>
+        <div class="droite">
+          <div class="groupe">
+            <label>Message</label>
+            <textarea placeholder="Saisissez ici..."></textarea>
+          </div>
+        </div>
+      </div>
+     <div class="pied-formulaire" align="center">
+        <button>Envoyer le message</button>
+      </div>
+    </form>
+  </section>
+
+  <section id="Infos">
+    <div class="Infos-row">
+        <div class="Infos-left">
+            <h1>Heures d'ouverture</h1>
+            <p>Lundi à Vendredi: 08h00 - 18h00</p>
+            <p>Samedi: 08h00 - 12h00</p>
+        </div>
+        <div class="Infos-right">
+            <h1>Contact & Adresse de la Rédaction</h1>
+            <p>25 Rue Boulevard de l'Europe</p>
+            <p>journalstudio@gmail.com</p>
+            <p>+261 12 345 678</p>
+        </div>
+    </div>
+  </section>
+  
+   <main class="main">
+      <h1 class="main-title">A la Une
+      <section class="main-section">
+        <div class="article">
+          <div class="article-image">
+            <img
+              src="https://www.madagascar-tribune.com/local/cache-vignettes/L720xH477/arton28996-f23f6.jpg?1719215329"
+              alt=""
+            />
+          </div>
+          <div class="article-text">
+            <h2>La proclamation des résultats définitifs très attendue</h2>
+            <p>
+              Après la publication des résultats provisoires des législatives par la HCC, les yeux se tournent désormais vers la Haute Cour Constitutionnelle (HCC) dont les décisions sont très attendues. 
+              Les noms des 163 nouveaux députés de Madagascar qui siégeront à l’Assemblée nationale seront officiellement connus cette semaine. Ils prendront leur fonction à partir du 1er juillet prochain.
+              Selon la loi régissant les élections législatives, la HCC procède à la proclamation officielle des résultats définitifs dans un délai de seize (16) jours à partir de la date de la publication des résultats provisoires par la CENI.
+            </p>
+            <button class="article-seeMore">voir details</button>
+            <div class="comments">
+              <div><i class="las la-comments"></i> <span>1</span></div>
+              <div class="share">
+                <p>partager</p>
+                <span> <i class="lab la-facebook-f"></i></span>
+                <span> <i class="lab la-twitter"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article">
+          <div class="article-text">
+            <h2>TRANSPORT AÉRIEN - Des solutions en urgence pour Madagascar Airlines</h2>
+            <p>
+              Le président de la République a annoncé lors de l’ouverture du salon ITM à Ivato que des solutions seront mises en place d’ici deux semaines pour Madagascar Airlines. 
+              Ces mesures concernent principalement les vols intérieurs et visent à accompagner l’ouverture de la liaison aérienne entre Antananarivo et Dubaï.
+            </p>
+            <button class="article-seeMore">voir details</button>
+            <div class="comments">
+              <div><i class="las la-comments"></i> <span>1</span></div>
+              <div class="share">
+                <p>partager</p>
+                <span> <i class="lab la-facebook-f"></i></span>
+                <span> <i class="lab la-twitter"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="article-image">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcgt5FHAujdJZzs_SAh_ovLezKJKJtN2INNeJU0YhKoAo2hdorGM5Kb_q3fyx2ZVtJyFwPwP4mk4PhxCXgvg63Umio-_Aw9ERZr9w7c8UrA0VfAGS206Ib1Tv9169cCBoTwzV4ajvaIrsroo2QpyjX9a1lfubcCoiOcY1rGFmgrCQzT-AstAK1aatPGqh2/s16000/Foto%20transport%20ae%CC%81rien.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="article-footer-1">
+          <div class="article-image__footer-1">
+            <img
+              src="https://img.lemde.fr/2024/05/15/0/0/6555/4370/556/0/75/0/2cf4aaf_2024-05-15t135805z-1503157511-rc20r7aq6qa4-rtrmadp-3-science-baobab.JPG"
+              alt=""
+            />
+          </div>
+          <div class="article-text__footer-1">
+            <h2>Madagascar, berceau des baobabs africains (et australiens)</h2>
+            <p>
+              Où les premiers baobabs sont-ils apparus ? Publiée mercredi 15 mai dans la revue Nature, 
+              la résolution de cette énigme conduit à Madagascar, 
+              selon les résultats d’une vaste étude génomique menée par une équipe internationale dirigée par les scientifiques du Jardin botanique de Wuhan (Chine) et de la Queen Mary University de Londres.
+            </p>
+            <button class="article-seeMore">voir details</button>
+            <div class="comments">
+              <div><i class="las la-comments"></i> <span>1</span></div>
+              <div class="share">
+                <p>partager</p>
+                <span> <i class="lab la-facebook-f"></i></span>
+                <span> <i class="lab la-twitter"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article-footer-2">
+          <div class="article-image__footer-2">
+            <img
+              src="https://www.madagascar-tribune.com/local/cache-vignettes/L720xH477/arton28997-2d658.jpg?1719291721"
+              alt=""
+            />
+          </div>
+          <div class="article-text__footer-2">
+            <h2>Carburant : hausse des prix à la pompe en perspective de la vérité des prix!</h2>
+            <p>
+              Le prix des carburants affichés à la pompe suivront désormais l’application du mécanisme d’ajustement automatique de prix. Cette décision a été annoncée lors de la séance d’officialisation de l’approbation des deux aides du FMI des programmes de Madagascar au titre de la Facilité Elargie de Crédit (FEC) et du FRD (Facilité pour la résilience et la durabilité). 
+              La vérité de prix des carburants sera mis en œuvre progressivement mais quel que soit la variation du cours du carburant sur le marché international, le prix qui sera appliqué à Madagascar sera plafonné à 200 Ar/litre, que ce soit dans un scénario de diminution ou d’augmentation du cours à l’international, selon les autorités. 
+            </p>
+            <button class="article-seeMore">voir details</button>
+            <div class="comments">
+              <div><i class="las la-comments"></i> <span>1</span></div>
+              <div class="share">
+                <p>partager</p>
+                <span> <i class="lab la-facebook-f"></i></span>
+                <span> <i class="lab la-twitter"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+
+          <div class="recent">
+            <h1>Article récents</h1>
+            <div>
+              <ul class="recent__items">
+                <li class="recent__item">
+                  <img
+                    src="https://cms.moov.mg/uploads/image0_4_9c43886aa9.jpeg"
+                    alt="slide1"
+                  />
+                  <h4>Le téléphérique séduit ses premiers passagers</h4>
+                </li>
+                <li class="recent__item">
+                  <img
+                    src="https://images.pexels.com/photos/1439179/pexels-photo-1439179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="slide1"
+                  />
+                  <h4>Design minimaliste industriel</h4>
+                </li>
+                <li class="recent__item">
+                  <img
+                    src="https://images.pexels.com/photos/9985530/pexels-photo-9985530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="slide1"
+                  />
+                  <h4>Design minimaliste industriel</h4>
+                </li>
+                <li class="recent__item">
+                  <img
+                    src="https://images.pexels.com/photos/9667021/pexels-photo-9667021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="slide1"
+                  />
+                  <h4>Design minimaliste industriel</h4>
+                </li>
+                <li class="recent__item">
+                  <img
+                    src="https://images.pexels.com/photos/3234638/pexels-photo-3234638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="slide1"
+                  />
+                  <h4>Design minimaliste industriel</h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Compagnie</h4>
+            <ul>
+              <li><a href="#">apropos de nous</a></li>
+              <li><a href="#">notre services</a></li>
+              <li><a href="#">politique de confidentialité</a></li>
+              <li><a href="#">programmes d'affiliation</a></li>
+            </ul>
+          </div>
+         <div class="footer-col">
+            <h4>Suivez-nous</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+
+    <script src="apps.js"></script>
+  </body>
+</html>

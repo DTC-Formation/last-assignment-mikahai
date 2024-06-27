@@ -1,0 +1,91 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 3rem;
+    color: #222;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+
+.menu .menu-items {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu .menu-items a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu .menu-items a:hover {
+    background-color: #555;
+}
+
+.main-news {
+    margin-top: 30px;
+}
+
+.main-news h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.main-news p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.main-news .thumb {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+#footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-left, .footer-right {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.social-links .fa {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .header .logo {
+        font-size: 2.5rem;
+    }
+    .menu .menu-items {
+        flex-wrap: wrap;
+    }
+    .menu .menu-items a {
+        width: 50%;
+        padding: 10px 0;
+        text-align: center;
+    }
+}
