@@ -82,7 +82,7 @@ body {
   width: 180px;
   border-radius: 100%;
   object-fit: cover;
-  border: #fff solid 6px;
+  border: #fff solid 2px;
 }
 
 .glide__slide h4 {
@@ -128,9 +128,16 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 350px);
   grid-gap: 20px;
-  width: 98%;
+  width: 100%;
   margin: auto;
   padding: 10px 0px;
+}
+
+.Infos-row {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  display: flex;
 }
 
 .article {
@@ -192,8 +199,8 @@ body {
 }
 
 .article-text {
-  flex-basis: 48%;
-  margin: 6px;
+  flex-basis: 51%;
+  margin: 10px;
 }
 
 .article-image {
@@ -208,8 +215,9 @@ body {
 }
 
 .contact-section {
+  margin-top: 275px;
   position: absolute;
-  left: 1246px; 
+  left: 873px; 
   padding: 20px;
   background-color: white;
   border-radius: 10px;
@@ -224,7 +232,7 @@ body {
 }
 
 form {
-  padding: 30px;
+  padding: 0;
   background-color: white;
   border-radius: 10px;
 }
@@ -242,7 +250,7 @@ form .corps-formulaire {
   margin-bottom: 30px;
 }
 form .corps-formulaire .groupe {
-  position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+  position: relative; 
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -359,41 +367,10 @@ form .pied-formulaire button:hover {
   align-items: center;
 }
 
-.SideBar-contact h1 {
-  color: #5c5656;
-  border-bottom: 2px solid #555;
-  display: inline-block;
-}
-
-.SideBar-contact .new-Btn {
-  background-color: #555;
-  padding: 10px;
-  border: none;
-  width: 100%;
-  cursor: pointer;
-  border-radius: 20px;
-  padding: 10px 5px;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.SideBar-contact .contact-Input {
-  width: 100%;
-  border: none;
-  background-color: #b3a5a5;
-  margin-bottom: 10px;
-  padding: 10px 5px;
-  border-radius: 20px;
-}
-
 .article-footer-1 {
   grid-column-start: 1;
   grid-column-end: 2;
-  /* grid-row-start: 3;
-  grid-row-end: 5; */
-}
-
-*/
+ }
 
 .article-image__footer-1 {
   height: 100%;
@@ -407,8 +384,9 @@ form .pied-formulaire button:hover {
 }
 
 .article-footer-2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  height: 100%;
+  width: 90%;
+  margin-bottom: 10px;
 }
 
 .article-image__footer-2 {
@@ -424,6 +402,7 @@ form .pied-formulaire button:hover {
 
 .recent {
   padding: 6rem;
+  margin-top: -178px;
 }
 
 .recent__items {
@@ -458,11 +437,9 @@ form .pied-formulaire button:hover {
   border-radius: 10%;
 }
 
-
-
 .footer{
 	background-color: #24262b;
-    padding: 4px 0;
+  padding: 4px 0;
 }
 .footer-col{
    width: 25%;
@@ -518,17 +495,4 @@ form .pied-formulaire button:hover {
 .footer-col .social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
-}
-
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
 }
